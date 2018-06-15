@@ -13,3 +13,5 @@ dist
 .ftpconfig
 .sftpconfig
 package-lock.json
+.cache
+yarn.lock

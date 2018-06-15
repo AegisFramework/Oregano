@@ -13,7 +13,7 @@
         ],
         "quotes": [
             2,
-            "double"
+            "single"
         ],
         "linebreak-style": [
             2,
@@ -86,5 +86,9 @@
         "es6": true,
         "browser": true
     },
-    "extends": "eslint:recommended"
+    "extends": "eslint:recommended",
+	"parserOptions": {
+       "ecmaVersion": 8,
+       "sourceType": "module"
+   }
 }
