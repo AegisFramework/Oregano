@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 
-<!--Aegis Framework | MIT License | http://www.aegisframework.com/ -->
+<!--Aegis Framework: Oregano | MIT License | https://www.aegisframework.com/ -->
+
+<!--
+ * This template features a lot of meta tags for social networks and mobile devices
+ * To simplify its filling, you can find and replace the following strings:
+ * {{_title}} - Up to 60-70 Characters. Optimal Format: Primary Keyword - Secondary Keyword | Brand Name
+ * {{_description}} - Page description. No longer than 155 characters.
+ * {{_keywords}} - List of comma separated keywords for your page
+ * http://localhost - Your url (https://example.example.com)
+ * {{_color}} - Color to use in mobile devices browsers and Windows tiles
+ * {{_author}} - Name of the Author
+ * {{_twitter}} - Twitter handle without the @
+ * {{_google}} - Google Plus Username/ID
+ *
+-->
 
 <html lang="en" itemscope itemtype="http://schema.org/WebPage"> <!--Change the lang property to your web's language-->
 
@@ -10,31 +24,31 @@
 
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-		<meta name="description" content=""><!--Page description. No longer than 155 characters.-->
-		<meta name="keywords" content="">
-		<meta name="author" content=""><!--Name of the author.-->
-		<meta name="theme-color" content=""><!--Theme color for browsers in hexadecimal format.-->
+		<meta name="description" content="{{_description}}">
+		<meta name="keywords" content="{{_keywords}}">
+		<meta name="author" content="{{_author}}"><!--Name of the author.-->
+		<meta name="theme-color" content="{{_color}}"><!--Theme color for browsers in hexadecimal format.-->
 
 		<!--Facebook Meta Tags-->
-		<meta property="og:image" content=""/> <!--URL of Image to show-->
-		<meta property="og:description" content=""/> <!--Page Description-->
-		<meta property="og:site_name" content=""/> <!--The Name Here-->
-		<meta property="og:url" content=""/> <!--The Web main URL-->
-		<meta property="og:title" content=""/><!--The Title Here-->
+		<meta property="og:image" content="http://localhost/img/share.png"/> <!--URL of Image to show-->
+		<meta property="og:description" content="{{_description}}"/>
+		<meta property="og:site_name" content="{{_title}}"/> <!--The Name Here-->
+		<meta property="og:url" content="http://localhost"/> <!--The Web main URL-->
+		<meta property="og:title" content="{{_title}}"/><!--The Title Here-->
 
 		<!--Google Meta Tags-->
-		<meta itemprop="name" content=""><!--The Name or Title Here-->
-		<meta itemprop="description" content=""><!--Page Description-->
-		<meta itemprop="image" content=""><!--URL of Image to show-->
+		<meta itemprop="name" content="{{_title}}">
+		<meta itemprop="description" content="{{_description}}">
+		<meta itemprop="image" content="http://localhost/img/share.png"><!--URL of Image to show-->
 
 		<!--Twitter Meta Tags - You'll have to validate your website here: https://dev.twitter.com/docs/cards/validation/validator-->
 		<meta name="twitter:card" content="summary_large_image"> <!--Content type:summary, summary_large_image, photo, gallery, product, app, player-->
 		<meta name="twitter:domain" content=""> <!--Your web's domain-->
 		<meta name="twitter:site" content="@"> <!--@publisher-->
-		<meta name="twitter:title" content=""> <!--Page Title-->
-		<meta name="twitter:description" content=""> <!--Page description less than 200 characters-->
+		<meta name="twitter:title" content="{{_title}}"> <!--Page Title-->
+		<meta name="twitter:description" content="{{_description}}"> <!--Page description less than 200 characters-->
 		<meta name="twitter:creator" content="@"> <!--@author-->
-		<meta name="twitter:image:src" content=""><!--URL of Image to show-->
+		<meta name="twitter:image:src" content="http://localhost/img/share.png"><!--URL of Image to show-->
 
 		<!--START of Web Apps Tags (Delete if not necessary)-->
 
@@ -44,7 +58,7 @@
 			<link rel="icon" sizes="128x128" href="img/icons/icon_128x128.png"> <!--128 x 128 Icon-->
 
 			<!--Apple Meta Tags-->
-			<meta name="apple-mobile-web-app-title" content=""> <!--App Title or Name-->
+			<meta name="apple-mobile-web-app-title" content="{{_title}}"> <!--App Title or Name-->
 			<meta name="apple-mobile-web-app-capable" content="yes">
 			<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> <!--Styling for the iOS Status Bar-->
 			<link rel="apple-touch-icon" href="img/icons/icon_60x60.png"> <!--60 x 60 Icon-->
@@ -55,13 +69,13 @@
 			<link rel="apple-touch-icon" sizes="152x152" href="img/icons/icon_180x180.png"> <!--180 x 180 Icon-->
 
 			<!--Microsoft Tags-->
-			<meta name="msapplication-TileColor" content=""><!--Color of the tile on Windows. In hexadecimal format-->
-			<meta name="application-name" content=""/> <!-- App Title -->
-			<meta name="msapplication-tooltip" content=""/> <!--Small text on hover-->
+			<meta name="msapplication-TileColor" content="{{_color}}"><!--Color of the tile on Windows. In hexadecimal format-->
+			<meta name="application-name" content="{{_title}}"/> <!-- App Title -->
+			<meta name="msapplication-tooltip" content="{{_title}}"/> <!--Small text on hover-->
 			<meta name="msapplication-starturl" content="http://"/> <!-- URL to start in -->
-			<meta name="msapplication-square70x70logo" content="img/icon-70x70.png" /><!--Image for Tile 70x70-->
-			<meta name="msapplication-square150x150logo" content="img/icon-150x150.png" /><!--Image for Tile 150x150-->
-			<meta name="msapplication-square310x310logo" content="img/icon-310x310.png" /><!--Image for Tile 310x310-->
+			<meta name="msapplication-square70x70logo" content="img/icons/icon_70x70.png" /><!--Image for Tile 70x70-->
+			<meta name="msapplication-square150x150logo" content="img/icons/icon_150x150.png" /><!--Image for Tile 150x150-->
+			<meta name="msapplication-square310x310logo" content="img/icons/icon_310x310.png" /><!--Image for Tile 310x310-->
 
 		<!--END of Web Apps Tags-->
 
@@ -71,18 +85,11 @@
 		<link rel="manifest" href="manifest.json">
 		<link rel="shortcut icon" href="./img/favicon.ico"/><!--Favicon. Good tool for creating one: http://xiconeditor.com/ Create all sizes.-->
 
-		<link rel="stylesheet" href="./style/font-awesome.min.css">
-		<link rel="stylesheet" href="./style/animate.min.css">
-		<link rel="stylesheet" href="./style/kayros.css">
 		<link rel="stylesheet" href="./style/main.css">
-
-		<script src="./js/fontawesome.min.js"></script>
 		<script src="./js/index.js" type="module"></script>
-
 	</head>
 
 	<body>
-
 		<div class="middle align-center">
 			<h1>Aegis Framework
 				<small class="align-right">OREGANO</small>

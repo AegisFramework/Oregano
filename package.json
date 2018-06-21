@@ -1,28 +1,40 @@
 {
-  "name": "oregano",
+  "name": "@aegis-framework/oregano",
   "version": "0.4.0",
   "main": "",
-  "description": "Create your webpage quickly with this template, featuring the cutting edge technologies and features of HTML5, CSS3 and Javascript. Make it mobile and social friendly!",
+  "description": "Create your webpage quickly with this template, featuring the cutting edge technologies and features of HTML5, CSS3 and JavaScript. Make it mobile and social friendly!",
   "homepage": "https://aegisframework.com",
   "author": "Diego Islas Ocampo",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/AegisFramework/Oregano.git"
+    "url": "https://gitlab.com/AegisFramework/Oregano.git"
   },
   "bugs": {
     "url": "https://gitlab.com/AegisFramework/Oregano/issues"
   },
   "scripts": {
-    "start": "parcel serve index.html",
+    "start": "parcel serve --open index.html",
     "build": "parcel build index.html",
-	"package": "gulp"
+    "package": "gulp"
   },
   "dependencies": {
-    "@aegis-framework/artemis": "^0.2.5"
+    "@aegis-framework/artemis": "^0.2.7",
+    "@aegis-framework/kayros.css": "^0.4.1",
+    "animate.css": "^3.6.1"
   },
   "devDependencies": {
+    "autoprefixer": "^8.6.3",
+    "eslint": "^4.19.1",
     "gulp": "^3.9.1",
-    "parcel": "^1.9.0"
+    "jsdoc": "^3.5.5",
+    "jsdoc-to-markdown": "^4.0.1",
+    "parcel": "^1.9.0",
+    "postcss": "^6.0.22",
+    "postcss-calc": "^6.0.1",
+    "posthtml": "^0.11.3",
+    "posthtml-img-autosize": "^0.1.2",
+    "precss": "^3.1.2",
+    "stylelint": "^9.3.0"
   }
 }

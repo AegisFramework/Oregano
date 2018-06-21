@@ -78,7 +78,7 @@
 			"always"
 		],
 		"strict":[
-			2,
+			0,
 			"global"
 		]
     },
@@ -86,9 +86,9 @@
         "es6": true,
         "browser": true
     },
-    "extends": "eslint:recommended",
 	"parserOptions": {
        "ecmaVersion": 8,
        "sourceType": "module"
-   }
+    },
+    "extends": "eslint:recommended"
 }

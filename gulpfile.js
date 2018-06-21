@@ -32,18 +32,6 @@ gulp.task('default', () => {
 // Update Dependencies
 gulp.task('download-deps', () => {
 
-	/// Animate CSS
-	download({
-		file: 'animate.min.css',
-		url: 'https://raw.githubusercontent.com/daneden/animate.css/master/animate.min.css'
-	}).pipe(gulp.dest('style/'));
-
-	// Kayros
-	download({
-		file: 'kayros.css',
-		url: 'https://raw.githubusercontent.com/AegisFramework/Kayros/master/dist/kayros.css'
-	}).pipe(gulp.dest('style/'));
-
 	// Font Awesome
 	download('https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/css/font-awesome.min.css').pipe(gulp.dest('style/'));
 });
