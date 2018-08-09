@@ -1,4 +1,4 @@
-import './fontawesome.min.js';
+import './font-awesome.min.js';
 
 import { $_ready, Platform } from '@aegis-framework/artemis';
 

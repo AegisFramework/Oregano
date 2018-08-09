@@ -14,22 +14,23 @@
     "url": "https://gitlab.com/AegisFramework/Oregano/issues"
   },
   "scripts": {
-    "start": "parcel serve --open index.html",
+    "start": "parcel index.html --open --port 3000",
     "build": "parcel build index.html",
     "package": "gulp"
   },
   "dependencies": {
-    "@aegis-framework/artemis": "^0.2.7",
-    "@aegis-framework/kayros.css": "^0.4.1",
-    "animate.css": "^3.6.1"
+    "@aegis-framework/artemis": "^0.3.5",
+    "@aegis-framework/kayros.css": "^0.4.3",
+    "animate.css": "^3.7.0"
   },
   "devDependencies": {
-    "autoprefixer": "^8.6.3",
+    "autoprefixer": "^8.6.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "eslint": "^4.19.1",
     "gulp": "^3.9.1",
     "jsdoc": "^3.5.5",
     "jsdoc-to-markdown": "^4.0.1",
-    "parcel": "^1.9.0",
+    "parcel": "^1.9.7",
     "postcss": "^6.0.22",
     "postcss-calc": "^6.0.1",
     "posthtml": "^0.11.3",

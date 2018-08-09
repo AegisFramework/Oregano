@@ -1,17 +1,33 @@
-*.zip
-*.rar
+# System Files
 .DS_Store
-.Thumbs
-.thumbs
+*~
 ._*
 ~*
-*~
+.thumbs
+.Thumbs
+
+# Package File
+*.zip
+*.rar
+
+# IDE/Text Editor Generated
+.vscode
+.buildconfig
+
+# Package Managers
 node_modules
-build
+package-lock.json
+
+# Build systems
+.cache
 dist
+
+# Other
+cache
+src
+build
+release
+*.log
 .conf
 .ftpconfig
 .sftpconfig
-package-lock.json
-.cache
-yarn.lock
