@@ -1,7 +1,7 @@
 /** Space for all imported CSS Libraries **/
 
-@import './font-awesome.min.css';
 @import 'animate.css';
+@import './../node_modules/@fortawesome/fontawesome-free/css/svg-with-js.css';
 @import '@aegis-framework/kayros.css';
 
 /** Space for all imported Fonts **/

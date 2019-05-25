@@ -27,11 +27,3 @@ gulp.task('default', () => {
 		.pipe (zip (packageJson.name + '-v' + packageJson.version + '.zip'))
 		.pipe (gulp.dest ('dist'));
 });
-
-
-// Update Dependencies
-gulp.task('download-deps', () => {
-
-	// Font Awesome
-	download('https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/css/font-awesome.min.css').pipe(gulp.dest('style/'));
-});
