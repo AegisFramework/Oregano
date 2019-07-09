@@ -19,24 +19,24 @@
     "package": "gulp"
   },
   "dependencies": {
-    "@aegis-framework/artemis": "^0.3.5",
-    "@aegis-framework/kayros.css": "^0.4.3",
-    "animate.css": "^3.7.0"
+    "@aegis-framework/artemis": "^0.3.19",
+    "@aegis-framework/kayros.css": "^0.4.5",
+    "animate.css": "^3.7.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.1.2",
-    "@babel/preset-env": "^7.1.0",
-    "autoprefixer": "^8.6.5",
-    "eslint": "^4.19.1",
-    "gulp": "^3.9.1",
-    "jsdoc": "^3.5.5",
-    "jsdoc-to-markdown": "^4.0.1",
-    "parcel": "^1.9.7",
-    "postcss": "^6.0.22",
-    "postcss-calc": "^6.0.1",
-    "posthtml": "^0.11.3",
-    "posthtml-img-autosize": "^0.1.2",
-    "precss": "^3.1.2",
-    "stylelint": "^9.3.0"
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "autoprefixer": "^9.6.1",
+    "eslint": "^6.0.1",
+    "gulp": "^4.0.2",
+    "jsdoc": "^3.6.2",
+    "jsdoc-to-markdown": "^5.0.0",
+    "parcel": "^1.12.3",
+    "postcss": "^7.0.17",
+    "postcss-calc": "^7.0.1",
+    "posthtml": "^0.11.4",
+    "posthtml-img-autosize": "^0.1.4",
+    "precss": "^4.0.0",
+    "stylelint": "^10.1.0"
   }
 }
