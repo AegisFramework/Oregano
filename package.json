@@ -1,6 +1,6 @@
 {
   "name": "@aegis-framework/oregano",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "main": "",
   "description": "Create your webpage quickly with this template, featuring the cutting edge technologies and features of HTML5, CSS3 and JavaScript. Make it mobile and social friendly!",
   "homepage": "https://aegisframework.com",
@@ -21,22 +21,25 @@
   "dependencies": {
     "@aegis-framework/artemis": "^0.3.19",
     "@aegis-framework/kayros.css": "^0.4.5",
-    "animate.css": "^3.7.2"
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "animate.css": "^3.7.2",
+    "core-js": "^3.2.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.5.0",
-    "@babel/preset-env": "^7.5.0",
-    "autoprefixer": "^9.6.1",
-    "eslint": "^6.0.1",
+    "@babel/core": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "autoprefixer": "^9.6.4",
+    "eslint": "^6.5.1",
     "gulp": "^4.0.2",
-    "jsdoc": "^3.6.2",
-    "jsdoc-to-markdown": "^5.0.0",
-    "parcel": "^1.12.3",
-    "postcss": "^7.0.17",
+    "gulp-zip": "^5.0.1",
+    "jsdoc": "^3.6.3",
+    "jsdoc-to-markdown": "^5.0.1",
+    "parcel": "^1.12.4",
+    "postcss": "^7.0.18",
     "postcss-calc": "^7.0.1",
-    "posthtml": "^0.11.4",
+    "posthtml": "^0.11.6",
     "posthtml-img-autosize": "^0.1.4",
     "precss": "^4.0.0",
-    "stylelint": "^10.1.0"
+    "stylelint": "^11.0.0"
   }
 }

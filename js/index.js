@@ -4,7 +4,9 @@
  * TODO: Find a way to import Font Awesome in a better way
  */
 
-import '@babel/polyfill';
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
+
 import './../node_modules/@fortawesome/fontawesome-free/js/all.js';
 
 /**
