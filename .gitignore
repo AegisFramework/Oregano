@@ -17,6 +17,7 @@
 # Package Managers
 node_modules
 package-lock.json
+.parcel-cache
 
 # Build systems
 .cache

@@ -1,10 +1,9 @@
 {
   "name": "@aegis-framework/oregano",
-  "version": "0.4.1",
-  "main": "",
+  "version": "0.5.0",
   "description": "Create your webpage quickly with this template, featuring the cutting edge technologies and features of HTML5, CSS3 and JavaScript. Make it mobile and social friendly!",
   "homepage": "https://aegisframework.com",
-  "author": "Diego Islas Ocampo",
+  "author": "Diana Islas Ocampo",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -15,31 +14,24 @@
   },
   "scripts": {
     "start": "parcel index.html --open --port 3000",
-    "build": "parcel build index.html",
-    "package": "gulp"
+    "build": "parcel index.html"
   },
   "dependencies": {
-    "@aegis-framework/artemis": "^0.3.19",
-    "@aegis-framework/kayros.css": "^0.4.5",
-    "@fortawesome/fontawesome-free": "^5.11.2",
-    "animate.css": "^3.7.2",
-    "core-js": "^3.2.1"
+    "@aegis-framework/artemis": "^0.3.29",
+    "@aegis-framework/kayros.css": "^0.5.1",
+    "@aegis-framework/pandora": "^0.1.8",
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "@parcel/service-worker": "^2.10.3",
+    "animate.css": "^4.1.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.6.3",
-    "@babel/preset-env": "^7.6.3",
-    "autoprefixer": "^9.6.4",
-    "eslint": "^6.5.1",
-    "gulp": "^4.0.2",
-    "gulp-zip": "^5.0.1",
-    "jsdoc": "^3.6.3",
-    "jsdoc-to-markdown": "^5.0.1",
-    "parcel": "^1.12.4",
-    "postcss": "^7.0.18",
-    "postcss-calc": "^7.0.1",
-    "posthtml": "^0.11.6",
-    "posthtml-img-autosize": "^0.1.4",
-    "precss": "^4.0.0",
-    "stylelint": "^11.0.0"
+    "@babel/core": "^7.12.0",
+    "@parcel/packager-raw-url": "2.10.3",
+    "@parcel/transformer-sass": "2.10.3",
+    "@parcel/transformer-webmanifest": "2.10.3",
+    "eslint": "^8.56.0",
+    "parcel": "^2.10.3",
+    "stylelint": "^16.1.0",
+    "stylelint-config-standard-scss": "^12.0.0"
   }
 }

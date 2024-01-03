@@ -1,8 +1,10 @@
 /** Space for all imported CSS Libraries **/
 
-@import 'animate.css';
-@import './../node_modules/@fortawesome/fontawesome-free/css/svg-with-js.css';
-@import '@aegis-framework/kayros.css';
+@use '@aegis-framework/kayros.css';
+
+@use 'animate.css';
+@use './../node_modules/@fortawesome/fontawesome-free/css/svg-with-js.css';
+
 
 /** Space for all imported Fonts **/
 
@@ -11,21 +13,21 @@
 
 h1 {
 	font-weight: lighter;
-	font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 small {
 	display: block;
-	font-size: 0.8rem;
+	font-size: 0.8rem
 }
 
 /** Place here all Media Queries and it's styles.**/
 
 /** Default Style. Don't change. (320px) **/
-@media screen and  (max-width: 20em) {}
+@media screen and  (max-width: 1) {}
 
 /** Extra Small Devices, Phones (480px) **/
-@media screen and (min-width : 30em) {
+@media screen and (min-width : 30dvw) {
 
 }
 
