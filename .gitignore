@@ -25,7 +25,6 @@ dist
 
 # Other
 cache
-src
 build
 release
 *.log

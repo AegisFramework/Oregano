@@ -2,9 +2,9 @@
 <!--Aegis Framework | MIT License | http://www.aegisframework.com/ -->
 <html lang="en">
 	<head>
-		<title>Service Unavailable</title>
+		<title>Error Title</title>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		<style>
 			html {
 				width: 100%;
@@ -31,6 +31,7 @@
 			   -moz-transform: translate(-50%, -50%);
 			   -o-transform: translate(-50%, -50%);
 			   -ms-transform: translate(-50%, -50%);
+			   transform: translate(-50%, -50%);
 			   position: absolute;
 			   max-height: 100%;
 			}
@@ -44,13 +45,25 @@
 			    font-size: 2em;
 				font-weight: lighter;
 			}
+
+			div > div {
+    			background-color: rgb(245,245,245);
+    			display: block;
+    			margin: 0 auto;
+    			border-radius: 0.3em;
+				padding: 1em;
+				text-align: left;
+			}
 		</style>
 	</head>
 
 	<body>
 		<div>
-			<h1>Service Unavailable</h1>
-	        <h2>Sorry, the server is currently unavailable or under mantainance, try again later.</h2>
+			<h1>Error Title</h1>
+			<h2>Error Description</h2>
+			<div>
+				<p><b>Error Details:</b> Some details</p>
+			</div>
 		</div>
 	</body>
 </html>

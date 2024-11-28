@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    // "lib": ["es2023"],
+    "target": "es2023",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+  },
+  "include": ["./src", "eslint.config.mjs"],
+  "typedocOptions": {
+    "entryPoints": ["src/**/*"],
+    "out": "docs"
+  }
+}

@@ -4,13 +4,13 @@ const IDENTIFIER = `oregano-v${version}`;
 
 async function install () {
 	const cache = await caches.open(IDENTIFIER);
-	await cache.addAll(manifest);
+	return cache.addAll(manifest);
 }
 
 async function activate () {
 	const keys = await caches.keys();
 	const promises = keys.map(key => key !== IDENTIFIER && caches.delete(key));
-	await Promise.all(promises);
+	return Promise.all(promises);
 }
 
 self.addEventListener('install', event => event.waitUntil(install()));

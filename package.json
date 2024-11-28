@@ -1,6 +1,6 @@
 {
   "name": "@aegis-framework/oregano",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Create your webpage quickly with this template, featuring the cutting edge technologies and features of HTML5, CSS3 and JavaScript. Make it mobile and social friendly!",
   "homepage": "https://aegisframework.com",
   "author": "Diana Islas Ocampo",
@@ -12,26 +12,33 @@
   "bugs": {
     "url": "https://gitlab.com/AegisFramework/Oregano/issues"
   },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "start": "parcel index.html --open --port 3000",
-    "build": "parcel index.html"
+    "start": "parcel src/index.html --open --port 3000",
+    "build": "parcel build src/index.html && parcel build --no-source-maps src/robots.txt src/ai.txt src/error/*.html",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@aegis-framework/artemis": "^0.3.29",
     "@aegis-framework/kayros.css": "^0.5.1",
     "@aegis-framework/pandora": "^0.1.8",
-    "@fortawesome/fontawesome-free": "^6.5.1",
-    "@parcel/service-worker": "^2.10.3",
-    "animate.css": "^4.1.1"
+    "@parcel/service-worker": "^2.13.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.0",
-    "@parcel/packager-raw-url": "2.10.3",
-    "@parcel/transformer-sass": "2.10.3",
-    "@parcel/transformer-webmanifest": "2.10.3",
-    "eslint": "^8.56.0",
-    "parcel": "^2.10.3",
-    "stylelint": "^16.1.0",
-    "stylelint-config-standard-scss": "^12.0.0"
-  }
+    "@babel/core": "^7.26.0",
+    "@parcel/packager-raw-url": "2.13.2",
+    "@parcel/transformer-raw": "^2.13.2",
+    "@parcel/transformer-sass": "2.13.2",
+    "@parcel/transformer-webmanifest": "2.13.2",
+    "@types/serviceworker": "^0.0.106",
+    "@typescript-eslint/eslint-plugin": "^8.16.0",
+    "@typescript-eslint/parser": "^8.16.0",
+    "eslint": "^9.15.0",
+    "parcel": "^2.13.2",
+    "stylelint": "^16.10.0",
+    "stylelint-config-standard-scss": "^13.1.0",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.16.0"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
