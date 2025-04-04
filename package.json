@@ -22,23 +22,23 @@
     "@aegis-framework/artemis": "^0.3.29",
     "@aegis-framework/kayros.css": "^0.5.1",
     "@aegis-framework/pandora": "^0.1.8",
-    "@parcel/service-worker": "^2.13.2"
+    "@parcel/service-worker": "^2.14.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.26.0",
-    "@parcel/packager-raw-url": "2.13.2",
-    "@parcel/transformer-raw": "^2.13.2",
-    "@parcel/transformer-sass": "2.13.2",
-    "@parcel/transformer-webmanifest": "2.13.2",
-    "@types/serviceworker": "^0.0.106",
-    "@typescript-eslint/eslint-plugin": "^8.16.0",
-    "@typescript-eslint/parser": "^8.16.0",
-    "eslint": "^9.15.0",
-    "parcel": "^2.13.2",
-    "stylelint": "^16.10.0",
-    "stylelint-config-standard-scss": "^13.1.0",
-    "typescript": "^5.7.2",
-    "typescript-eslint": "^8.16.0"
+    "@babel/core": "^7.26.10",
+    "@parcel/packager-raw-url": "2.14.4",
+    "@parcel/transformer-raw": "^2.14.4",
+    "@parcel/transformer-sass": "2.14.4",
+    "@parcel/transformer-webmanifest": "2.14.4",
+    "@types/serviceworker": "^0.0.127",
+    "@typescript-eslint/eslint-plugin": "^8.29.0",
+    "@typescript-eslint/parser": "^8.29.0",
+    "eslint": "^9.23.0",
+    "parcel": "^2.14.4",
+    "stylelint": "^16.17.0",
+    "stylelint-config-standard-scss": "^14.0.0",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.29.0"
   },
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
